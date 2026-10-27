@@ -1,5 +1,5 @@
 ## Ex. No: 3  DHCP Configuration Using a Router
-Date:
+Date: 27-10-26
 ________________________________________
 # Objective
 To configure a router to automatically assign IP addresses to client PCs using the Dynamic Host Configuration Protocol (DHCP).
@@ -16,7 +16,9 @@ Description:<br>
 •	PC0 and PC1 are connected to Switch0.<br>
 •	Switch0 is connected to Router0 on FastEthernet0/0.<br>
 •	The router acts as a DHCP server for the connected LAN.<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+
+<img width="1533" height="862" alt="image" src="https://github.com/user-attachments/assets/00adcc0c-8eb1-466e-9696-ca1a33bd9f0d" />
+
 ________________________________________
 # IP Addressing Table
 Device	Interface	IP Address	Subnet Mask<br>
@@ -63,8 +65,20 @@ Router(dhcp-config)# exit<br>
 ________________________________________
 # Output (Screenshots)
 •	DHCP IP configuration shown in PC0 and PC1<br>
+
+<img width="1535" height="862" alt="image" src="https://github.com/user-attachments/assets/c2a6e92d-9949-4f5a-9602-867b2d99e9d5" />
+
+
 •	Router configuration screen<br>
+
+<img width="1533" height="862" alt="image" src="https://github.com/user-attachments/assets/be00393c-9577-43a1-a10a-7cc02f8204fa" />
+
+
 •	Successful ping test between the two PCs<br>
+
+<img width="1526" height="826" alt="image" src="https://github.com/user-attachments/assets/69ca3198-faec-446b-a57f-a7659f352568" />
+
+
 ________________________________________
 # Result
 Successfully configured a DHCP server on the router. PCs were dynamically assigned IP addresses and were able to communicate over the network.
